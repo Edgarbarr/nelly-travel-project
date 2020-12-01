@@ -1,0 +1,63 @@
+.banner {
+  background-color: lightgrey;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  height: 200px;
+  justify-content: center;
+}
+.main-section {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  padding: 50px;
+}
+.form-container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.form-container > form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-self: center;
+  width: 250px;
+}
+.img-container {
+  height: fit-content;
+}
+#destination-details {
+  text-align: center;
+  margin-left: auto;
+  width: 55%;
+}
+.destination-img {
+  width: 100%;
+  height: auto;
+}
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: left;
+}
+.card-details {
+  padding: 20px;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+label {
+  margin: 15px 0 5px 0;
+}
+button[type="submit"] {
+  margin: 10px 0;
+}
+.card {
+  height: fit-content;
+  max-width: 250px;
+}
